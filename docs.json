@@ -1,122 +1,67 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "VentureMax",
+  "logo": {
+    "light": "/logo/venturemax-dark.svg",
+    "dark": "/logo/venturemax-light.svg"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+  "colors": {
+    "primary": "#REPLACE_WITH_YOUR_PRIMARY",
+    "light": "#REPLACE_WITH_YOUR_LIGHT",
+    "dark": "#REPLACE_WITH_YOUR_DARK"
+  },
+  "canonicalUrl": "https://docs.venturemax.one",
+  "topbarCtaButton": {
+    "name": "Back to VentureMax",
+    "url": "https://venturemax.one"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@venturemax.one"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Help Center",
+      "pages": [
+        "help/getting-started",
+        "help/faq",
+        "help/account",
+        "help/billing",
+        "help/contact"
+      ]
+    },
+    {
+      "group": "Compliance & Policies",
+      "pages": [
+        "compliance/terms",
+        "compliance/privacy",
+        "compliance/data-security"
+      ]
+    },
+    {
+      "group": "Developer Docs",
+      "pages": [
+        "api/overview",
+        "api/authentication",
+        "api/endpoints"
+      ]
+    },
+    {
+      "group": "Internal KB",
+      "pages": [
+        "internal/onboarding",
+        "internal/processes"
       ]
     }
+  ],
+  "footerSocials": {
+    "linkedin": "https://linkedin.com/company/venturemax",
+    "twitter": "https://twitter.com/venturemax"
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
   }
 }
