@@ -1,19 +1,23 @@
 {
   "name": "VentureMax",
   "logo": {
-    "light": "/logo/venturemax-dark.svg",
-    "dark": "/logo/venturemax-light.svg"
+    "light": "/logo/venturemax-light.svg",
+    "dark": "/logo/venturemax-dark.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#REPLACE_WITH_YOUR_PRIMARY",
-    "light": "#REPLACE_WITH_YOUR_LIGHT",
-    "dark": "#REPLACE_WITH_YOUR_DARK"
+    "primary": "#E8A000",
+    "light": "#F5C842",
+    "dark": "#C47F00",
+    "background": {
+      "light": "#F7F4ED",
+      "dark": "#1A1A1A"
+    }
   },
   "canonicalUrl": "https://docs.venturemax.one",
   "topbarCtaButton": {
-    "name": "Back to VentureMax",
-    "url": "https://venturemax.one"
+    "name": "Go to App",
+    "url": "https://app.venturemax.one"
   },
   "topbarLinks": [
     {
@@ -56,12 +60,20 @@
       ]
     }
   ],
-  "footerSocials": {
-    "linkedin": "https://linkedin.com/company/venturemax",
-    "twitter": "https://twitter.com/venturemax"
-  },
   "feedback": {
     "thumbsRating": true,
     "suggestEdit": true
+  },
+  "footerSocials": {
+    "linkedin": "https://linkedin.com/company/venturemax"
+  },
+  "theme": "maple",
+  "font": {
+    "headings": {
+      "family": "Inter"
+    },
+    "body": {
+      "family": "Inter"
+    }
   }
 }
